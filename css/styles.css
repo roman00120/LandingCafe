@@ -29,7 +29,7 @@ li a:hover {
   background: url("../imgs/bg1.jpg");
   background-size: cover;
   min-height: 330px;
-  padding: 3%;
+  padding: 0%;
   width: 100%;
 
 }
@@ -132,7 +132,7 @@ li a:hover {
   text-align: center;
 }
 
-img{
+.imagen{
 
   width: 20%;
   height: 20%;
@@ -182,10 +182,6 @@ body {
 
 .box-hamburgers {
   max-width: 50px;
-}
-img{
-
-
 }
 
 @media (max-width: 730px) {
