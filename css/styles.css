@@ -24,12 +24,14 @@ li a:hover {
  
 }
 
+
 .box-bg-section {
   background: url("../imgs/bg1.jpg");
   background-size: cover;
   min-height: 330px;
   padding: 3%;
-  
+  width: 100%;
+
 }
 
 .box-bg-section h1 {
@@ -130,6 +132,12 @@ li a:hover {
   text-align: center;
 }
 
+img{
+
+  width: 20%;
+  height: 20%;
+ border-radius: 50%;
+}
 .box-bg2-section h2 {
   text-align: center;
   color: white;
@@ -175,6 +183,10 @@ body {
 .box-hamburgers {
   max-width: 50px;
 }
+img{
+
+
+}
 
 @media (max-width: 730px) {
   .js .menu-nav {
@@ -182,14 +194,17 @@ body {
     transition: max-height 0.5s;
     position: absolute;
     right: 0px;
-    left: 0px;
-    top: 60px;
-    width: 100%;
-
-    padding: 1%;
-    box-sizing: border-box;
-
+    left:10%;
+    top: -20px;
+    width: 50px;
+    padding: 0 200px;
     display: none;
+    float: left;
+    flex-direction: column;
+
+text-align: left;
+background-color: red;
+   
     
   }
 
@@ -199,19 +214,14 @@ body {
     color: black;
   }
 
-  #menu.menu-nav.menu-displayed {
-    display: inline-block;
-  }
 
   #menu > ul > li {
     text-align: left;
   }
 
   #menu > nav > ul > li {
-    display: inline-block;
-    margin-right: 15px;
-    
-
+    display: block;
+    margin-right: 0;
   }
 }
 
